@@ -1,0 +1,70 @@
+<div>
+    <div>
+        <div>
+            <button (click)="navigateToAddVehicle()" class="add">Add Vehhicle</button>
+        </div>
+        <br>
+</div>
+<div class="table">
+    <table border="red">
+        <thead class="head1">
+            <tr>
+                <th class="t1">Id</th>
+                <th class="t1">Vehicle Name</th>
+                <th class="t1">Vehicle Cost</th>
+                <th class="t1">Take Action</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr *ngFor="let vehicle of vehicles">
+                <td>{{vehicle.id}}</td>
+                <td>{{vehicle.vehicleName}}</td>
+                <td>{{vehicle.vehicleCost}}</td>
+                <div>
+                    <!-- Two types to route 
+                        1. direct(routerLink="path")
+                        2. indirect((click)="methodName")
+                    -->
+                <td><button routerLink="/vehicles/edit/{{vehicle.id}}">Edit</button></td>
+                <td><button (click)="deleteVehicleById(vehicle.id)"><div>delete</div></button></td>
+                </div>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- 
+    <div>
+    <div>
+        <button (click)="navigateToHome()">Home</button>&nbsp;
+        <button (click)="navigateToAddGuests()">Add Guest</button>
+    </div>
+    <br>
+
+   <div *ngIf="guests && guests.length>0">
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Guest Name</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let guest of guests">
+                <td>{{guest.id}}</td>
+                <td>{{guest.guestName}}</td>
+                <td>
+                    <button routerLink="/guests/edit/{{guest.id}}">Edit</button>&nbsp;
+                    <button (click)="deleteGuest(guest.id)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+   </div>
+   <ng-container *ngIf="guests && guests.length==0">
+    <p><strong>No Guest Found</strong></p>
+   </ng-container>
+</div>
+ -->

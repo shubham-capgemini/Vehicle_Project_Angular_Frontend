@@ -1,0 +1,22 @@
+
+
+/* .head2{
+flex: 1 1 auto;
+} */
+
+/* .head2 {
+    float: right;
+  } */
+
+ 
+
+  body.backgroundimg{
+    /********************** Very Important ********/
+    background-image: url(..\..\assets\images\car1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1px;
+    height: 100vh;
+    margin-top: 0px;
+    ;
+    } 

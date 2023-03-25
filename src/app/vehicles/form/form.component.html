@@ -1,0 +1,19 @@
+<form (submit)="saveChanges()" [formGroup]="form">
+    <div>
+        <div>
+            <label >Vehicle Name : </label>
+        <input type="text" formControlName="vehicleName" placeholder="Enter Vehicle Name">
+        </div>
+        <br>
+        <div><label >Vehicle Cost : </label>
+            <input type="text" formControlName="vehicleCost" placeholder="Enter Vehicle Cost">
+        </div>
+    </div>
+
+    <br>
+
+    <div>
+        <button>Save</button>
+        <button routerLink="/vehicles">Cancel</button>
+    </div>
+</form>

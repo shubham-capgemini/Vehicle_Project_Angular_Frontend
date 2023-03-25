@@ -1,0 +1,19 @@
+.head1{
+  background-color: skyblue;
+    text-align: left;
+    margin-bottom: 0px;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    } 
+  
+  .head2{
+    float: right;
+  }
+
+/* .back{
+    background-image: url(..\assets\images\car3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200vh;
+} */

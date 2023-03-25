@@ -1,0 +1,47 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "vehicleName": "BMW",
+      "vehicleCost": 5000000
+    },
+    {
+      "vehicleName": "Honda",
+      "id": 2,
+      "vehicleCost": 1500000
+    },
+    {
+      "vehicleName": "Swift",
+      "id": 3,
+      "vehicleCost": 1000000
+    },
+    {
+      "vehicleName": "Audi",
+      "vehicleCost": "5500000",
+      "id": 4
+    }
+  ],
+  "signupDTO": [
+    {
+      "id": 1,
+      "userName": "shubham",
+      "email": "shubham@gmail.com",
+      "mobileNumber": "1234567890",
+      "password": "shubham@123"
+    },
+    {
+      "id": 3,
+      "userName": "unnati",
+      "email": "unnati@gmail.com",
+      "mobileNumber": "999999999",
+      "password": "unnati@123"
+    },
+    {
+      "id": 4,
+      "userName": "sanket",
+      "email": "sm@gmail.com",
+      "mobileNumber": "1234567890",
+      "password": "jagsdjhg"
+    }
+  ]
+}
