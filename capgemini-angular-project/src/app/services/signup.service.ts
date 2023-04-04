@@ -7,7 +7,7 @@ import { SignupDTO } from '../model/signup.model';
 })
 export class SignupService {
 
-  springBootUrl1="http://localhost:8888/signup";
+  springBootUrl1="http://localhost:9999/signup";
 
   jsonUrl="http://localhost:5000/signupDTO";
 
